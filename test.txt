@@ -1,3 +1,5 @@
 Je fais un test !!!
 
 Je vais même mettre deux lignes pour montrer que je suis trop un guedin !
+
+Test de la commande reset.
