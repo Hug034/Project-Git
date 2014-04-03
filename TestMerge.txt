@@ -1,1 +1,3 @@
 Je crée se fichier en parallèle de ma nouvelle branche pour tester le merge.
+
+Je rajoute un commit pour le plaisir !
