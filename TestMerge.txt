@@ -2,8 +2,7 @@ Je crée se fichier en parallèle de ma nouvelle branche pour tester le merge.
 
 Je rajoute un commit pour le plaisir !
 
-<<<<<<< HEAD
 Je rajoute cette ligne sur ma branche master. J'ai donc deux branche qui modifiera cette page, master et fonctionA !
-=======
+
 Je rajoute cette ligne avec ma fonctionA.
->>>>>>> commit de fonctionA
+
