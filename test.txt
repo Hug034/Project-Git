@@ -1,6 +1,26 @@
-Je fais un test !!!
+﻿Je fais un test !!!
 
 Je vais même mettre deux lignes pour montrer que je suis trop un guedin !
 
 Test de la commande reset.
 Comment je comprends trop bien comment ça marche !!!
+
+Git est également capable d'indexer certaines parties d'un fichier. Par exemple, si vous modifiez en deux endroits votre fichier 
+simplegit.rb et que vous souhaitez indexer une modification seulement, cela peut se faire très aisément avec Git. En mode interactif, 
+tapez 5 ou p (pour patch en anglais). Git vous demandera quels fichiers vous voulez indexer partiellement, puis, pour chacun des fichiers sélectionnés, 
+il affichera les parties du fichier où il y a des différences et vous demandera si vous souhaitez les indexer, une par une :
+
+diff --git a/lib/simplegit.rb b/lib/simplegit.rb
+index dd5ecc4..57399e0 100644
+--- a/lib/simplegit.rb
++++ b/lib/simplegit.rb
+@@ -22,7 +22,7 @@ class SimpleGit
+   end
+
+   def log(treeish = 'master')
+-    command("git log -n 25 #{treeish}")
++    command("git log -n 30 #{treeish}")
+   end
+
+   def blame(path)
+Stage this hunk [y,n,a,d,/,j,J,g,e,?]?
