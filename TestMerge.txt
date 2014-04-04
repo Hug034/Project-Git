@@ -5,4 +5,4 @@ Je rajoute un commit pour le plaisir !
 Je rajoute cette ligne sur ma branche master. J'ai donc deux branche qui modifiera cette page, master et fonctionA !
 
 Je rajoute cette ligne avec ma fonctionA.
-
+Et je remodifie car j'aime bien.
